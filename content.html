@@ -1,0 +1,2410 @@
+	<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CS 3 PROJECT</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script>
+            var a,  b , c , d, e, f, g, h, i, j, x, m, y, score, ans;
+            y = Math.floor(Math.random() * 6);
+            score = 6;
+            ans = 0;
+            function junkk(){
+                if (y == 0){
+                    document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='pp'><input type='text' maxlength='1' class='form-control' readonly='true' id='ii'><input type='text' maxlength='1' class='form-control' readonly='true' id='zz'><input type='text' maxlength='1' class='form-control' readonly='true' id='zz2'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                    m = "pizza"
+                    return;
+                }
+                else if (y == 1){
+                    document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='ff'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><input type='text' maxlength='1' class='form-control' readonly='true' id='nn'><input type='text' maxlength='1' class='form-control' readonly='true' id='cc'><input type='text' maxlength='1' class='form-control' readonly='true'id='hh'>&emsp;&emsp;<input type='text' maxlength='1' class='form-control' readonly='true'id='ff2'><input type='text' maxlength='1' class='form-control' readonly='true'id='rr2'><input type='text' maxlength='1' class='form-control' readonly='true'id='ii'><input type='text' maxlength='1' class='form-control' readonly='true'id='ee2'><input type='text' maxlength='1' class='form-control' readonly='true'id='ss'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                    m = "frenchfries"
+                    return;
+                                }
+                else if (y == 2){
+                    document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='hh'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='mm'><input type='text' maxlength='1' class='form-control' readonly='true' id='bb'><input type='text' maxlength='1' class='form-control' readonly='true' id='uu'><input type='text' maxlength='1' class='form-control' readonly='true'id='rr'><input type='text' maxlength='1' class='form-control' readonly='true'id='gg'><input type='text' maxlength='1' class='form-control' readonly='true'id='ee'><input type='text' maxlength='1' class='form-control' readonly='true'id='rr2'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                    m = "hamburger"
+                    return;
+                                }
+                else if (y == 3){
+                    document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='pp'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo'><input type='text' maxlength='1' class='form-control' readonly='true' id='tt'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='tt2'><input type='text' maxlength='1' class='form-control' readonly='true'id='oo2'>&emsp;&emsp;<input type='text' maxlength='1' class='form-control' readonly='true'id='cc'><input type='text' maxlength='1' class='form-control' readonly='true'id='hh'><input type='text' maxlength='1' class='form-control' readonly='true'id='ii'><input type='text' maxlength='1' class='form-control' readonly='true'id='pp2'><input type='text' maxlength='1' class='form-control' readonly='true'id='ss'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                    m = "potatochips"
+                    return;
+                }
+                if (y == 4){
+                    document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='cc'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='nn'><input type='text' maxlength='1' class='form-control' readonly='true' id='dd'><input type='text' maxlength='1' class='form-control' readonly='true' id='yy'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                    m = "candy"
+                    return;
+                }
+                if (y == 5){
+                    document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='hh'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo'><input type='text' maxlength='1' class='form-control' readonly='true' id='tt'><input type='text' maxlength='1' class='form-control' readonly='true' id='dd'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo2'><input type='text' maxlength='1' class='form-control' readonly='true'id='gg'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                    m = "hotdog"
+                    return;
+                }
+            }
+            function pets(){
+                if (y == 0){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='dd'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo'><input type='text' maxlength='1' class='form-control' readonly='true' id='gg'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "dog";
+                return;
+                }
+                else if (y == 1){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true' id='cc'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='tt'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "cat";
+                return;
+                }
+                else if (y == 2){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true' id='tt'><input type='text' maxlength='1' class='form-control' readonly='true' id='uu'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><input type='text' maxlength='1' class='form-control' readonly='true' id='tt2'><input type='text' maxlength='1' class='form-control' readonly='true' id='ll'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "turtle";
+                return;
+                }
+                else if (y == 3){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='bb'><input type='text' maxlength='1' class='form-control' readonly='true' id='bb2'><input type='text' maxlength='1' class='form-control' readonly='true' id='ii'><input type='text' maxlength='1' class='form-control' readonly='true' id='tt'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "rabbit";
+                return;
+                }
+                else if (y == 4){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true' id='pp'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr2'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo'><input type='text' maxlength='1' class='form-control' readonly='true' id='tt'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "parrot";
+                return;
+                }
+                else if (y == 5){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true' id='hh'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='mm'><input type='text' maxlength='1' class='form-control' readonly='true' id='ss'><input type='text' maxlength='1' class='form-control' readonly='true' id='tt'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "hamster";
+                return;
+                }
+            }
+            function colors(){
+                if (y == 0){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='bb'><input type='text' maxlength='1' class='form-control' readonly='true' id='ll'><input type='text' maxlength='1' class='form-control' readonly='true' id='uu'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "blue";
+                return;
+                }
+                if (y == 1){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='cc'><input type='text' maxlength='1' class='form-control' readonly='true' id='yy'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='nn'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "cyan";
+                return;
+                }
+                if (y == 2){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='pp'><input type='text' maxlength='1' class='form-control' readonly='true' id='ii'><input type='text' maxlength='1' class='form-control' readonly='true' id='nn'><input type='text' maxlength='1' class='form-control' readonly='true' id='kk'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "pink";
+                return;
+                }
+                if (y == 3){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='gg'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo'><input type='text' maxlength='1' class='form-control' readonly='true' id='ll'><input type='text' maxlength='1' class='form-control' readonly='true' id='dd'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "gold";
+                return;
+                }
+                if (y == 4){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='gg'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee2'><input type='text' maxlength='1' class='form-control' readonly='true' id='nn'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "green";
+                return;
+                }
+                if (y == 5){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='mm'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='gg'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><input type='text' maxlength='1' class='form-control' readonly='true' id='nn'><input type='text' maxlength='1' class='form-control' readonly='true'id='tt'><input type='text' maxlength='1' class='form-control' readonly='true'id='aa2'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "magenta";
+                return;
+                }
+            }
+            function bodyparts(){
+                if (y == 0){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='ee'><input type='text' maxlength='1' class='form-control' readonly='true' id='yy'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee2'><input type='text' maxlength='1' class='form-control' readonly='true' id='ss'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "eyes";
+                return;
+                }
+                if (y == 1){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='nn'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo'><input type='text' maxlength='1' class='form-control' readonly='true' id='ss'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "nose";
+                return;
+                }
+                if (y == 2){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='hh'><input type='text' maxlength='1' class='form-control' readonly='true' id='aa'><input type='text' maxlength='1' class='form-control' readonly='true' id='ii'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "hair";
+                return;
+                }
+                if (y == 3){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='ee'><input type='text' maxlength='1' class='form-control' readonly='true' id='ll'><input type='text' maxlength='1' class='form-control' readonly='true' id='bb'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo'><input type='text' maxlength='1' class='form-control' readonly='true' id='ww'><input type='text' maxlength='1' class='form-control' readonly='true' id='ss'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "elbows";
+                return;
+                }
+                if (y == 4){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='ff'><input type='text' maxlength='1' class='form-control' readonly='true' id='ii'><input type='text' maxlength='1' class='form-control' readonly='true' id='nn'><input type='text' maxlength='1' class='form-control' readonly='true' id='gg'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><input type='text' maxlength='1' class='form-control' readonly='true' id='ss'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "fingers";
+                return;
+                }
+                if (y == 5){
+                document.getElementById("input").innerHTML = "<input type='text' maxlength='1' class='form-control' readonly='true'id='ss'><input type='text' maxlength='1' class='form-control' readonly='true' id='hh'><input type='text' maxlength='1' class='form-control' readonly='true' id='oo'><input type='text' maxlength='1' class='form-control' readonly='true' id='uu'><input type='text' maxlength='1' class='form-control' readonly='true' id='ll'><input type='text' maxlength='1' class='form-control' readonly='true' id='dd'><input type='text' maxlength='1' class='form-control' readonly='true' id='ee'><input type='text' maxlength='1' class='form-control' readonly='true' id='rr'><input type='text' maxlength='1' class='form-control' readonly='true' id='ss2'><br><button class='btn btn-secondary' onclick='aaa()' id='abutton'>A</button><button class='btn btn-secondary' onclick='bbb()' id='bbutton'>B</button><button class='btn btn-secondary' onclick='ccc()' id='cbutton'>C</button><button class='btn btn-secondary' onclick='ddd()' id='dbutton'>D</button><button class='btn btn-secondary' onclick='eee()' id='ebutton'>E</button><button class='btn btn-secondary' onclick='fff()' id='fbutton'>F</button><br><button class='btn btn-secondary' onclick='ggg()' id='gbutton'>G</button><button class='btn btn-secondary' onclick='hhh()' id='hbutton'>H</button><button class='btn btn-secondary' onclick='iii()' id='ibutton'>I</button><button class='btn btn-secondary' onclick='jjj()' id='jbutton'>J</button><button class='btn btn-secondary' onclick='kkk()' id='kbutton'>K</button><button class='btn btn-secondary' onclick='lll()' id='lbutton'>L</button><br><button class='btn btn-secondary' onclick='mmm()' id='mbutton'>M</button><button class='btn btn-secondary' onclick='nnn()' id='nbutton'>N</button><button class='btn btn-secondary' onclick='ooo()' id='obutton'>O</button><button class='btn btn-secondary' onclick='ppp()' id='pbutton'>P</button><button class='btn btn-secondary' onclick='qqq()' id='qbutton'>Q</button><button class='btn btn-secondary' onclick='rrr()' id='rbutton'>R</button><br><button class='btn btn-secondary' onclick='sss()' id='sbutton'>S</button><button class='btn btn-secondary' onclick='ttt()' id='tbutton'>T</button><button class='btn btn-secondary' onclick='uuu()' id='ubutton'>U</button><button class='btn btn-secondary' onclick='vvv()' id='vbutton'>V</button><button class='btn btn-secondary' onclick='www()' id='wbutton'>W</button><button class='btn btn-secondary' onclick='xxx()' id='xbutton'>X</button><br><button class='btn btn-secondary' onclick='yyy()' id='ybutton'>Y</button><button class='btn btn-secondary' onclick='zzz()' id='zbutton'>Z</button>";
+                m = "shoulders";
+                return;
+                }
+                
+                
+            }
+            function aaa(){
+                if (m == "cat"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "rabbit"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "parrot"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamster"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "pizza"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamburger"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "potatochips"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "candy"){
+                    document.getElementById("aa").value += event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "cyan"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "magenta"){
+                    document.getElementById("aa").value = event.target.innerHTML;
+                    document.getElementById("aa2").value = event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hair"){
+                    document.getElementById("aa").value += event.target.innerHTML;
+                    document.getElementById("abutton").style.backgroundColor = "green";
+                    document.getElementById("abutton").style.color = "green";
+                    document.getElementById("abutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("abutton").style.backgroundColor = "red";
+                    document.getElementById("abutton").style.color = "red";
+                    document.getElementById("abutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function bbb(){
+                if (m == "rabbit"){
+                    document.getElementById("bb").value = event.target.innerHTML;
+                    document.getElementById("bb2").value = event.target.innerHTML;
+                    document.getElementById("bbutton").style.backgroundColor = "green";
+                    document.getElementById("bbutton").style.color = "green";
+                    document.getElementById("bbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamburger"){
+                    document.getElementById("bb").value = event.target.innerHTML;
+                    document.getElementById("bbutton").style.backgroundColor = "green";
+                    document.getElementById("bbutton").style.color = "green";
+                    document.getElementById("bbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "blue"){
+                    document.getElementById("bb").value = event.target.innerHTML;
+                    document.getElementById("bbutton").style.backgroundColor = "green";
+                    document.getElementById("bbutton").style.color = "green";
+                    document.getElementById("bbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "elbows"){
+                    document.getElementById("bb").value += event.target.innerHTML;
+                    document.getElementById("bbutton").style.backgroundColor = "green";
+                    document.getElementById("bbutton").style.color = "green";
+                    document.getElementById("bbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("bbutton").style.backgroundColor = "red";
+                    document.getElementById("bbutton").style.color = "red";
+                    document.getElementById("bbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function ccc(){
+                if (m == "cat"){
+                    document.getElementById("cc").value += event.target.innerHTML;
+                    document.getElementById("cbutton").style.backgroundColor = "green";
+                    document.getElementById("cbutton").style.color = "green";
+                    document.getElementById("cbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "frenchfries"){
+                    document.getElementById("cc").value += event.target.innerHTML;
+                    document.getElementById("cbutton").style.backgroundColor = "green";
+                    document.getElementById("cbutton").style.color = "green";
+                    document.getElementById("cbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "potatochips"){
+                    document.getElementById("cc").value = event.target.innerHTML;
+                    document.getElementById("cbutton").style.backgroundColor = "green";
+                    document.getElementById("cbutton").style.color = "green";
+                    document.getElementById("cbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "candy"){
+                    document.getElementById("cc").value += event.target.innerHTML;
+                    document.getElementById("cbutton").style.backgroundColor = "green";
+                    document.getElementById("cbutton").style.color = "green";
+                    document.getElementById("cbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "cyan"){
+                    document.getElementById("cc").value = event.target.innerHTML;
+                    document.getElementById("cbutton").style.backgroundColor = "green";
+                    document.getElementById("cbutton").style.color = "green";
+                    document.getElementById("cbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("cbutton").style.backgroundColor = "red";
+                    document.getElementById("cbutton").style.color = "red";
+                    document.getElementById("cbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function ddd(){
+                if (m == "dog"){
+                    document.getElementById("dd").value = event.target.innerHTML;
+                    document.getElementById("dbutton").style.backgroundColor = "green";
+                    document.getElementById("dbutton").style.color = "green";
+                    document.getElementById("dbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "candy"){
+                    document.getElementById("dd").value += event.target.innerHTML;
+                    document.getElementById("dbutton").style.backgroundColor = "green";
+                    document.getElementById("dbutton").style.color = "green";
+                    document.getElementById("dbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hotdog"){
+                    document.getElementById("dd").value = event.target.innerHTML;
+                    document.getElementById("dbutton").style.backgroundColor = "green";
+                    document.getElementById("dbutton").style.color = "green";
+                    document.getElementById("dbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "gold"){
+                    document.getElementById("dd").value = event.target.innerHTML;
+                    document.getElementById("dbutton").style.backgroundColor = "green";
+                    document.getElementById("dbutton").style.color = "green";
+                    document.getElementById("dbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "shoulders"){
+                    document.getElementById("dd").value += event.target.innerHTML;
+                    document.getElementById("dbutton").style.backgroundColor = "green";
+                    document.getElementById("dbutton").style.color = "green";
+                    document.getElementById("dbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("dbutton").style.backgroundColor = "red";
+                    document.getElementById("dbutton").style.color = "red";
+                    document.getElementById("dbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function eee(){
+                if (m == "turtle"){
+                    document.getElementById("ee").value += event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamster"){
+                    document.getElementById("ee").value = event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "frenchfries"){
+                    document.getElementById("ee").value += event.target.innerHTML;
+                    document.getElementById("ee2").value = event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamburger"){
+                    document.getElementById("ee").value = event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "blue"){
+                    document.getElementById("ee").value = event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "green"){
+                    document.getElementById("ee").value = event.target.innerHTML;
+                    document.getElementById("ee2").value = event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "magenta"){
+                    document.getElementById("ee").value = event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "eyes"){
+                    document.getElementById("ee").value += event.target.innerHTML;
+                    document.getElementById("ee2").value = event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                 else if (m == "nose"){
+                    document.getElementById("ee").value += event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "elbows"){
+                    document.getElementById("ee").value += event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "fingers"){
+                    document.getElementById("ee").value += event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "shoulders"){
+                    document.getElementById("ee").value += event.target.innerHTML;
+                    document.getElementById("ebutton").style.backgroundColor = "green";
+                    document.getElementById("ebutton").style.color = "green";
+                    document.getElementById("ebutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("ebutton").style.backgroundColor = "red";
+                    document.getElementById("ebutton").style.color = "red";
+                    document.getElementById("ebutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function fff(){
+                if (m == "frenchfries"){
+                    document.getElementById("ff").value += event.target.innerHTML;
+                    document.getElementById("ff2").value = event.target.innerHTML;
+                    document.getElementById("fbutton").style.backgroundColor = "green";
+                    document.getElementById("fbutton").style.color = "green";
+                    document.getElementById("fbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "fingers"){
+                    document.getElementById("ff").value += event.target.innerHTML;
+                    document.getElementById("fbutton").style.backgroundColor = "green";
+                    document.getElementById("fbutton").style.color = "green";
+                    document.getElementById("fbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("fbutton").style.backgroundColor = "red";
+                    document.getElementById("fbutton").style.color = "red";
+                    document.getElementById("fbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                   else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function ggg(){
+                if (m == "dog"){
+                    document.getElementById("gg").value = event.target.innerHTML;
+                    document.getElementById("gbutton").style.backgroundColor = "green";
+                    document.getElementById("gbutton").style.color = "green";
+                    document.getElementById("gbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamburger"){
+                    document.getElementById("gg").value = event.target.innerHTML;
+                    document.getElementById("gbutton").style.backgroundColor = "green";
+                    document.getElementById("gbutton").style.color = "green";
+                    document.getElementById("gbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hotdog"){
+                    document.getElementById("gg").value = event.target.innerHTML;
+                    document.getElementById("gbutton").style.backgroundColor = "green";
+                    document.getElementById("gbutton").style.color = "green";
+                    document.getElementById("gbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "gold"){
+                    document.getElementById("gg").value = event.target.innerHTML;
+                    document.getElementById("gbutton").style.backgroundColor = "green";
+                    document.getElementById("gbutton").style.color = "green";
+                    document.getElementById("gbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "green"){
+                    document.getElementById("gg").value = event.target.innerHTML;
+                    document.getElementById("gbutton").style.backgroundColor = "green";
+                    document.getElementById("gbutton").style.color = "green";
+                    document.getElementById("gbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "magenta"){
+                    document.getElementById("gg").value = event.target.innerHTML;
+                    document.getElementById("gbutton").style.backgroundColor = "green";
+                    document.getElementById("gbutton").style.color = "green";
+                    document.getElementById("gbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "fingers"){
+                    document.getElementById("gg").value += event.target.innerHTML;
+                    document.getElementById("gbutton").style.backgroundColor = "green";
+                    document.getElementById("gbutton").style.color = "green";
+                    document.getElementById("gbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("gbutton").style.backgroundColor = "red";
+                    document.getElementById("gbutton").style.color = "red";
+                    document.getElementById("gbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function hhh(){
+                if (m == "hamster"){ 
+                    document.getElementById("hh").value = event.target.innerHTML;
+                    document.getElementById("hbutton").style.backgroundColor = "green";
+                    document.getElementById("hbutton").style.color = "green";
+                    document.getElementById("hbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "frenchfries"){
+                    document.getElementById("hh").value += event.target.innerHTML;
+                    document.getElementById("hbutton").style.backgroundColor = "green";
+                    document.getElementById("hbutton").style.color = "green";
+                    document.getElementById("hbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamburger"){
+                    document.getElementById("hh").value = event.target.innerHTML;
+                    document.getElementById("hbutton").style.backgroundColor = "green";
+                    document.getElementById("hbutton").style.color = "green";
+                    document.getElementById("hbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "potatochips"){
+                    document.getElementById("hh").value = event.target.innerHTML;
+                    document.getElementById("hbutton").style.backgroundColor = "green";
+                    document.getElementById("hbutton").style.color = "green";
+                    document.getElementById("hbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 9){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hotdog"){
+                    document.getElementById("hh").value = event.target.innerHTML;
+                    document.getElementById("hbutton").style.backgroundColor = "green";
+                    document.getElementById("hbutton").style.color = "green";
+                    document.getElementById("hbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hair"){
+                    document.getElementById("hh").value += event.target.innerHTML;
+                    document.getElementById("hbutton").style.backgroundColor = "green";
+                    document.getElementById("hbutton").style.color = "green";
+                    document.getElementById("hbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "shoulders"){
+                    document.getElementById("hh").value += event.target.innerHTML;
+                    document.getElementById("hbutton").style.backgroundColor = "green";
+                    document.getElementById("hbutton").style.color = "green";
+                    document.getElementById("hbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("hbutton").style.backgroundColor = "red";
+                    document.getElementById("hbutton").style.color = "red";
+                    document.getElementById("hbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                   else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function iii(){
+                if (m == "rabbit"){ 
+                    document.getElementById("ii").value = event.target.innerHTML;
+                    document.getElementById("ibutton").style.backgroundColor = "green";
+                    document.getElementById("ibutton").style.color = "green";
+                    document.getElementById("ibutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "pizza"){
+                    document.getElementById("ii").value = event.target.innerHTML;
+                    document.getElementById("ibutton").style.backgroundColor = "green";
+                    document.getElementById("ibutton").style.color = "green";
+                    document.getElementById("ibutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "frenchfries"){
+                    document.getElementById("ii").value += event.target.innerHTML;
+                    document.getElementById("ibutton").style.backgroundColor = "green";
+                    document.getElementById("ibutton").style.color = "green";
+                    document.getElementById("ibutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "potatochips"){
+                    document.getElementById("ii").value = event.target.innerHTML;
+                    document.getElementById("ibutton").style.backgroundColor = "green";
+                    document.getElementById("ibutton").style.color = "green";
+                    document.getElementById("ibutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "pink"){
+                    document.getElementById("ii").value = event.target.innerHTML;
+                    document.getElementById("ibutton").style.backgroundColor = "green";
+                    document.getElementById("ibutton").style.color = "green";
+                    document.getElementById("ibutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hair"){
+                    document.getElementById("ii").value += event.target.innerHTML;
+                    document.getElementById("ibutton").style.backgroundColor = "green";
+                    document.getElementById("ibutton").style.color = "green";
+                    document.getElementById("ibutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "fingers"){
+                    document.getElementById("ii").value += event.target.innerHTML;
+                    document.getElementById("ibutton").style.backgroundColor = "green";
+                    document.getElementById("ibutton").style.color = "green";
+                    document.getElementById("ibutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("ibutton").style.backgroundColor = "red";
+                    document.getElementById("ibutton").style.color = "red";
+                    document.getElementById("ibutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function jjj(){
+                if (m == "j"){ 
+                document.getElementById("jj").value = event.target.innerHTML;
+            }
+                else{
+                    document.getElementById("jbutton").style.backgroundColor = "red";
+                    document.getElementById("jbutton").style.color = "red";
+                    document.getElementById("jbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function kkk(){
+                if (m == "pink"){
+                    document.getElementById("kk").value = event.target.innerHTML;
+                    document.getElementById("kbutton").style.backgroundColor = "green";
+                    document.getElementById("kbutton").style.color = "green";
+                    document.getElementById("kbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("kbutton").style.backgroundColor = "red";
+                    document.getElementById("kbutton").style.color = "red";
+                    document.getElementById("kbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function lll(){
+                if (m == "turtle"){ 
+                    document.getElementById("ll").value = event.target.innerHTML;
+                    document.getElementById("lbutton").style.backgroundColor = "green";
+                    document.getElementById("lbutton").style.color = "green";
+                    document.getElementById("lbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "blue"){
+                    document.getElementById("ll").value = event.target.innerHTML;
+                    document.getElementById("lbutton").style.backgroundColor = "green";
+                    document.getElementById("lbutton").style.color = "green";
+                    document.getElementById("lbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "gold"){
+                    document.getElementById("ll").value = event.target.innerHTML;
+                    document.getElementById("lbutton").style.backgroundColor = "green";
+                    document.getElementById("lbutton").style.color = "green";
+                    document.getElementById("lbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "elbows"){
+                    document.getElementById("ll").value += event.target.innerHTML;
+                    document.getElementById("lbutton").style.backgroundColor = "green";
+                    document.getElementById("lbutton").style.color = "green";
+                    document.getElementById("lbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "shoulders"){
+                    document.getElementById("ll").value += event.target.innerHTML;
+                    document.getElementById("lbutton").style.backgroundColor = "green";
+                    document.getElementById("lbutton").style.color = "green";
+                    document.getElementById("lbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("lbutton").style.backgroundColor = "red";
+                    document.getElementById("lbutton").style.color = "red";
+                    document.getElementById("lbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function mmm(){
+                if (m == "hamster"){ 
+                    document.getElementById("mm").value = event.target.innerHTML;
+                    document.getElementById("mbutton").style.backgroundColor = "green";
+                    document.getElementById("mbutton").style.color = "green";
+                    document.getElementById("mbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamburger"){
+                    document.getElementById("mm").value = event.target.innerHTML;
+                    document.getElementById("mbutton").style.backgroundColor = "green";
+                    document.getElementById("mbutton").style.color = "green";
+                    document.getElementById("mbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "magenta"){
+                    document.getElementById("mm").value = event.target.innerHTML;
+                    document.getElementById("mbutton").style.backgroundColor = "green";
+                    document.getElementById("mbutton").style.color = "green";
+                    document.getElementById("mbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("mbutton").style.backgroundColor = "red";
+                    document.getElementById("mbutton").style.color = "red";
+                    document.getElementById("mbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                   else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function nnn(){
+                if (m == "frenchfries"){
+                    document.getElementById("nn").value += event.target.innerHTML;
+                    document.getElementById("nbutton").style.backgroundColor = "green";
+                    document.getElementById("nbutton").style.color = "green";
+                    document.getElementById("nbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "candy"){
+                    document.getElementById("nn").value += event.target.innerHTML;
+                    document.getElementById("nbutton").style.backgroundColor = "green";
+                    document.getElementById("nbutton").style.color = "green";
+                    document.getElementById("nbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "cyan"){
+                    document.getElementById("nn").value = event.target.innerHTML;
+                    document.getElementById("nbutton").style.backgroundColor = "green";
+                    document.getElementById("nbutton").style.color = "green";
+                    document.getElementById("nbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "pink"){
+                    document.getElementById("nn").value = event.target.innerHTML;
+                    document.getElementById("nbutton").style.backgroundColor = "green";
+                    document.getElementById("nbutton").style.color = "green";
+                    document.getElementById("nbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "green"){
+                    document.getElementById("nn").value = event.target.innerHTML;
+                    document.getElementById("nbutton").style.backgroundColor = "green";
+                    document.getElementById("nbutton").style.color = "green";
+                    document.getElementById("nbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "magenta"){
+                    document.getElementById("nn").value = event.target.innerHTML;
+                    document.getElementById("nbutton").style.backgroundColor = "green";
+                    document.getElementById("nbutton").style.color = "green";
+                    document.getElementById("nbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "nose"){
+                    document.getElementById("nn").value += event.target.innerHTML;
+                    document.getElementById("nbutton").style.backgroundColor = "green";
+                    document.getElementById("nbutton").style.color = "green";
+                    document.getElementById("nbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "fingers"){
+                    document.getElementById("nn").value += event.target.innerHTML;
+                    document.getElementById("nbutton").style.backgroundColor = "green";
+                    document.getElementById("nbutton").style.color = "green";
+                    document.getElementById("nbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("nbutton").style.backgroundColor = "red";
+                    document.getElementById("nbutton").style.color = "red";
+                    document.getElementById("nbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                   else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function ooo(){
+                if (m == "dog"){ 
+                    document.getElementById("oo").value = event.target.innerHTML;
+                    document.getElementById("obutton").style.backgroundColor = "green";
+                    document.getElementById("obutton").style.color = "green";
+                    document.getElementById("obutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "parrot"){
+                    document.getElementById("oo").value = event.target.innerHTML;
+                   document.getElementById("obutton").style.backgroundColor = "green";
+                    document.getElementById("obutton").style.color = "green";
+                    document.getElementById("obutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "potatochips"){
+                    document.getElementById("oo").value = event.target.innerHTML;
+                    document.getElementById("oo2").value = event.target.innerHTML;
+                    document.getElementById("obutton").style.backgroundColor = "green";
+                    document.getElementById("obutton").style.color = "green";
+                    document.getElementById("obutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hotdog"){
+                    document.getElementById("oo").value = event.target.innerHTML;
+                    document.getElementById("oo2").value = event.target.innerHTML;
+                    document.getElementById("obutton").style.backgroundColor = "green";
+                    document.getElementById("obutton").style.color = "green";
+                    document.getElementById("obutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "gold"){
+                    document.getElementById("oo").value = event.target.innerHTML;
+                    document.getElementById("obutton").style.backgroundColor = "green";
+                    document.getElementById("obutton").style.color = "green";
+                    document.getElementById("obutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                 else if (m == "nose"){
+                    document.getElementById("oo").value += event.target.innerHTML;
+                    document.getElementById("obutton").style.backgroundColor = "green";
+                    document.getElementById("obutton").style.color = "green";
+                    document.getElementById("obutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "elbows"){
+                    document.getElementById("oo").value += event.target.innerHTML;
+                    document.getElementById("obutton").style.backgroundColor = "green";
+                    document.getElementById("obutton").style.color = "green";
+                    document.getElementById("obutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "shoulders"){
+                    document.getElementById("oo").value += event.target.innerHTML;
+                    document.getElementById("obutton").style.backgroundColor = "green";
+                    document.getElementById("obutton").style.color = "green";
+                    document.getElementById("obutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else {
+                    document.getElementById("obutton").style.backgroundColor = "red";
+                    document.getElementById("obutton").style.color = "red";
+                    document.getElementById("obutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function ppp(){
+                if (m == "parrot"){ 
+                    document.getElementById("pp").value = event.target.innerHTML;
+                    document.getElementById("pbutton").style.backgroundColor = "green";
+                    document.getElementById("pbutton").style.color = "green";
+                    document.getElementById("pbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "pizza"){
+                    document.getElementById("pp").value = event.target.innerHTML;
+                    document.getElementById("pbutton").style.backgroundColor = "green";
+                    document.getElementById("pbutton").style.color = "green";
+                    document.getElementById("pbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "potatochips"){
+                    document.getElementById("pp").value = event.target.innerHTML;
+                    document.getElementById("pp2").value = event.target.innerHTML;
+                    document.getElementById("pbutton").style.backgroundColor = "green";
+                    document.getElementById("pbutton").style.color = "green";
+                    document.getElementById("pbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "pink"){
+                    document.getElementById("pp").value = event.target.innerHTML;
+                    document.getElementById("pbutton").style.backgroundColor = "green";
+                    document.getElementById("pbutton").style.color = "green";
+                    document.getElementById("pbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("pbutton").style.backgroundColor = "red";
+                    document.getElementById("pbutton").style.color = "red";
+                    document.getElementById("pbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function qqq(){
+                if (m == "q"){ 
+                document.getElementById("qq").value = event.target.innerHTML;
+            }
+                else{
+                    document.getElementById("qbutton").style.backgroundColor = "red";
+                    document.getElementById("qbutton").style.color = "red";
+                    document.getElementById("qbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function rrr(){
+                if (m == "turtle"){ 
+                    document.getElementById("rr").value = event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "rabbit"){ 
+                    document.getElementById("rr").value = event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "parrot"){
+                    document.getElementById("rr").value = event.target.innerHTML;
+                    document.getElementById("rr2").value = event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                    
+                }
+                else if (m == "hamster"){
+                    document.getElementById("rr").value = event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                    
+                }
+                else if (m == "frenchfries"){
+                    document.getElementById("rr").value += event.target.innerHTML;
+                    document.getElementById("rr2").value = event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamburger"){
+                    document.getElementById("rr").value = event.target.innerHTML;
+                    document.getElementById("rr2").value = event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "green"){
+                    document.getElementById("rr").value = event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hair"){
+                    document.getElementById("rr").value += event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "fingers"){
+                    document.getElementById("rr").value += event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "shoulders"){
+                    document.getElementById("rr").value += event.target.innerHTML;
+                    document.getElementById("rbutton").style.backgroundColor = "green";
+                    document.getElementById("rbutton").style.color = "green";
+                    document.getElementById("rbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("rbutton").style.backgroundColor = "red";
+                    document.getElementById("rbutton").style.color = "red";
+                    document.getElementById("rbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function sss(){
+               if (m == "hamster"){ 
+                    document.getElementById("ss").value += event.target.innerHTML;
+                    document.getElementById("sbutton").style.backgroundColor = "green";
+                    document.getElementById("sbutton").style.color = "green";
+                    document.getElementById("sbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+               }
+                else if (m == "frenchfries"){
+                    document.getElementById("ss").value += event.target.innerHTML;
+                    document.getElementById("sbutton").style.backgroundColor = "green";
+                    document.getElementById("sbutton").style.color = "green";
+                    document.getElementById("sbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "potatochips"){
+                    document.getElementById("ss").value = event.target.innerHTML;
+                    document.getElementById("sbutton").style.backgroundColor = "green";
+                    document.getElementById("sbutton").style.color = "green";
+                    document.getElementById("sbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "eyes"){
+                    document.getElementById("ss").value += event.target.innerHTML;
+                    document.getElementById("sbutton").style.backgroundColor = "green";
+                    document.getElementById("sbutton").style.color = "green";
+                    document.getElementById("sbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                 else if (m == "nose"){
+                    document.getElementById("ss").value += event.target.innerHTML;
+                    document.getElementById("sbutton").style.backgroundColor = "green";
+                    document.getElementById("sbutton").style.color = "green";
+                    document.getElementById("sbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "elbows"){
+                    document.getElementById("ss").value += event.target.innerHTML;
+                    document.getElementById("sbutton").style.backgroundColor = "green";
+                    document.getElementById("sbutton").style.color = "green";
+                    document.getElementById("sbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "fingers"){
+                    document.getElementById("ss").value += event.target.innerHTML;
+                    document.getElementById("sbutton").style.backgroundColor = "green";
+                    document.getElementById("sbutton").style.color = "green";
+                    document.getElementById("sbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "shoulders"){
+                    document.getElementById("ss").value += event.target.innerHTML;
+                    document.getElementById("ss2").value += event.target.innerHTML;
+                    document.getElementById("sbutton").style.backgroundColor = "green";
+                    document.getElementById("sbutton").style.color = "green";
+                    document.getElementById("sbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("sbutton").style.backgroundColor = "red";
+                    document.getElementById("sbutton").style.color = "red";
+                    document.getElementById("sbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function ttt(){
+                if (m == "cat"){ 
+                    document.getElementById("tt").value = event.target.innerHTML;
+                    document.getElementById("tbutton").style.backgroundColor = "green";
+                    document.getElementById("tbutton").style.color = "green";
+                    document.getElementById("tbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m =="turtle"){
+                    document.getElementById("tt").value = event.target.innerHTML;
+                    document.getElementById("tt2").value = event.target.innerHTML;
+                    document.getElementById("tbutton").style.backgroundColor = "green";
+                    document.getElementById("tbutton").style.color = "green";
+                    document.getElementById("tbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "rabbit"){ 
+                    document.getElementById("tt").value = event.target.innerHTML;
+                    document.getElementById("tbutton").style.backgroundColor = "green";
+                    document.getElementById("tbutton").style.color = "green";
+                    document.getElementById("tbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "parrot"){
+                    document.getElementById("tt").value = event.target.innerHTML;
+                    document.getElementById("tbutton").style.backgroundColor = "green";
+                    document.getElementById("tbutton").style.color = "green";
+                    document.getElementById("tbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamster"){
+                    document.getElementById("tt").value = event.target.innerHTML;
+                    document.getElementById("tbutton").style.backgroundColor = "green";
+                    document.getElementById("tbutton").style.color = "green";
+                    document.getElementById("tbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 7){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "potatochips"){
+                    document.getElementById("tt").value = event.target.innerHTML;
+                    document.getElementById("tt2").value = event.target.innerHTML;
+                    document.getElementById("tbutton").style.backgroundColor = "green";
+                    document.getElementById("tbutton").style.color = "green";
+                    document.getElementById("tbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hotdog"){
+                    document.getElementById("tt").value = event.target.innerHTML;
+                    document.getElementById("tbutton").style.backgroundColor = "green";
+                    document.getElementById("tbutton").style.color = "green";
+                    document.getElementById("tbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "magenta"){
+                    document.getElementById("tt").value = event.target.innerHTML;
+                    document.getElementById("tbutton").style.backgroundColor = "green";
+                    document.getElementById("tbutton").style.color = "green";
+                    document.getElementById("tbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("tbutton").style.backgroundColor = "red";
+                    document.getElementById("tbutton").style.color = "red";
+                    document.getElementById("tbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function uuu(){
+                if (m == "turtle"){ 
+                    document.getElementById("uu").value = event.target.innerHTML;
+                    document.getElementById("ubutton").style.backgroundColor = "green";
+                    document.getElementById("ubutton").style.color = "green";
+                    document.getElementById("ubutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "hamburger"){
+                    document.getElementById("uu").value = event.target.innerHTML;
+                    document.getElementById("ubutton").style.backgroundColor = "green";
+                    document.getElementById("ubutton").style.color = "green";
+                    document.getElementById("ubutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "blue"){
+                    document.getElementById("uu").value = event.target.innerHTML;
+                    document.getElementById("ubutton").style.backgroundColor = "green";
+                    document.getElementById("ubutton").style.color = "green";
+                    document.getElementById("ubutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "shoulders"){
+                    document.getElementById("uu").value += event.target.innerHTML;
+                    document.getElementById("ubutton").style.backgroundColor = "green";
+                    document.getElementById("ubutton").style.color = "green";
+                    document.getElementById("ubutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 8){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("ubutton").style.backgroundColor = "red";
+                    document.getElementById("ubutton").style.color = "red";
+                    document.getElementById("ubutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function vvv(){
+                if (m == "v"){ 
+                document.getElementById("vv").value = event.target.innerHTML;
+            }
+                else{
+                    document.getElementById("vbutton").style.backgroundColor = "red";
+                    document.getElementById("vbutton").style.color = "red";
+                    document.getElementById("vbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function www(){
+                if (m == "elbows"){
+                    document.getElementById("ww").value += event.target.innerHTML;
+                    document.getElementById("wbutton").style.backgroundColor = "green";
+                    document.getElementById("wbutton").style.color = "green";
+                    document.getElementById("wbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 6){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("wbutton").style.backgroundColor = "red";
+                    document.getElementById("wbutton").style.color = "red";
+                    document.getElementById("wbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function xxx(){
+                if (m == "x"){ 
+                document.getElementById("xx").value = event.target.innerHTML;
+            }
+                else{
+                    document.getElementById("xbutton").style.backgroundColor = "red";
+                    document.getElementById("xbutton").style.color = "red";
+                    document.getElementById("xbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function yyy(){
+                if (m == "candy"){
+                    document.getElementById("yy").value += event.target.innerHTML;
+                    document.getElementById("ybutton").style.backgroundColor = "green";
+                    document.getElementById("ybutton").style.color = "green";
+                    document.getElementById("ybutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 5){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "cyan"){
+                    document.getElementById("yy").value = event.target.innerHTML;
+                    document.getElementById("ybutton").style.backgroundColor = "green";
+                    document.getElementById("ybutton").style.color = "green";
+                    document.getElementById("ybutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else if (m == "eyes"){
+                    document.getElementById("yy").value += event.target.innerHTML;
+                    document.getElementById("ybutton").style.backgroundColor = "green";
+                    document.getElementById("ybutton").style.color = "green";
+                    document.getElementById("ybutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 3){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                }
+                else{
+                    document.getElementById("ybutton").style.backgroundColor = "red";
+                    document.getElementById("ybutton").style.color = "red";
+                    document.getElementById("ybutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+            function zzz(){
+                    if (m == "pizza"){
+                    document.getElementById("zz").value = event.target.innerHTML;
+                    document.getElementById("zz2").value = event.target.innerHTML;
+                    document.getElementById("zbutton").style.backgroundColor = "green";
+                    document.getElementById("zbutton").style.color = "green";
+                    document.getElementById("zbutton").disabled = true;
+                    ans = ans + 1;
+                    if (ans == 4){
+                        setTimeout(function(){alert("Snowy: Look who's getting presents for Christmas!");}, 300);
+                        setTimeout(function(){location.reload()}, 700);
+                    }
+                    }
+                else{
+                    document.getElementById("zbutton").style.backgroundColor = "red";
+                    document.getElementById("zbutton").style.color = "red";
+                    document.getElementById("zbutton").disabled = true;
+                    score = score - 1;
+                    if (score == 0){
+                        setTimeout(function(){alert("Snowy: It's fine, do better next time! I know you can.");}, 500);
+                        setTimeout(function(){location.reload()}, 700);
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman0.png' alt='snowman0 picture' class='center'>"
+                    }
+                    else if (score == 1){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman1.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 2){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman2.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 3){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman3.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 4){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman4.png' alt='snowman picture' class='center'>"
+                    }
+                    else if (score == 5){
+                        document.getElementById("mrsnow").innerHTML = "<img src='snowman5.png' alt='snowman picture' class='center'>"
+                    }
+                    return;
+                }
+            }
+        </script>
+        
+        <style>
+            body{
+                font-family: 'Dosis';
+				background-color: #D8F2FF;
+            }
+            h1{
+                text-align: center;
+                font-weight: bold;
+            }
+            h2{
+                text-align: center;
+                font-family: 'Dosis';
+				font-weight: bold;
+				color: #1e5294;
+            }
+            h3{
+                font-family: 'Quicksand'
+            }
+            .container{
+                margin: auto;
+            }
+            img{
+                height: 30%;
+            }
+            .center{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+                height:30%;
+            }
+            .form-control{
+                width: 50px;
+                border-top-style: none;
+                border-left-style: none;
+                border-right-style: none;
+                border-radius: 0px;
+                padding-bottom: 0px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                font-size: 24pt;
+                margin-left: 3px;
+                margin-right: 3px;
+                display: inline;
+                text-align: center;
+                text-transform: uppercase;
+                background-color: white;
+            }
+            input[type=text]:focus {
+                box-shadow: none;
+                outline-color: black;
+                border-bottom-width: 2px;
+                border-image: linear-gradient(70deg, #89BBED,#83F7F4 ) 1;
+            }
+            .inputbox{
+                text-align: center;
+                
+            }
+            .gg{
+                font-family: 'Quicksand';
+                margin-left: 20px;
+                margin-bottom: 20px;
+                width: auto;
+            }
+            button{
+                font-family: 'Quicksand';
+                margin-left: 20px;
+                margin-bottom: 20px;
+                width: 40px;
+            }
+            .start{
+                height: 50px;
+                width: 80px;
+            }
+			 .home{
+				width: 50px;
+				height: 50px;
+				padding-left: 5px;
+				padding-top: 5px;
+			}
+        </style>
+    </head>
+    <body>
+		<a href="index.html"><img class="home" src="home.png" alt="home picture"></a>
+        <div class="container">
+        <h1>HANGMAN:</h1>
+        <h2>SNOWMAN EDITION</h2>
+        <br>
+        <div id="mrsnow">
+        <img src="snowman.png" alt="snowman picture" class="center">
+            </div>
+        <br>
+        <div class="inputbox" id="input">
+                <h3>Choose a Category:</h3>
+                <br>
+                <button class="btn btn-dark hover1 gg" onclick="junkk()" id = "junkfoods">Junk Foods</button>
+                <button class="btn btn-dark hover1 gg" onclick="pets()" id = "pets">Household Pets</button>
+                <button class="btn btn-dark hover1 gg" onclick="colors()" id = "colors">Colors</button>
+                <button class="btn btn-dark hover1 gg" onclick="bodyparts()" id = "bodyparts">Body Parts</button>
+        </div>
+            <br>
+            <br>
+            <br>
+        </div>
+    </body>
+</html>
